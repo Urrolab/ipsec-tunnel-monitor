@@ -1,0 +1,10 @@
+[Unit]
+Description=Ejecución periódica del IPsec Monitor
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=5min
+Unit=ipsec-monitor.service
+
+[Install]
+WantedBy=timers.target

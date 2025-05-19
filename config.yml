@@ -1,0 +1,7 @@
+# /etc/ipsec-tunnel-monitor/config.yml
+
+log_directory: "/var/log/ipsec-tunnel-monitor"
+fortigate_ips:
+  - "1.1.1.1"
+  - "2.2.2.2"
+ipsec_config_file: "/etc/ipsec.conf"

@@ -1,0 +1,12 @@
+[Unit]
+Description=Monitor de túneles IPsec de InterTel
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/env ruby /opt/ipsec-tunnel-monitor/ipsec_monitor.rb
+WorkingDirectory=/opt/ipsec-tunnel-monitor
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=ipsec-monitor
+User=root
