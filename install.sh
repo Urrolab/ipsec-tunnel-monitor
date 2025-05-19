@@ -3,7 +3,7 @@
 # ========================================================
 # Script: install.sh
 # Descripción: Instalador mejorado para IPsec Tunnel Monitor
-# Autor: Usuario
+# Autor: Urro - InterTel
 # ========================================================
 
 set -euo pipefail  # Salir en caso de error, variable no definida o pipe que falle
